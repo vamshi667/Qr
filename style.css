@@ -82,9 +82,4 @@ body{
 .container .btn button:active{
     scale: 0.98;
 }
-.text{
-    background-color: #f30707;
-    text-align: center;
-    text-decoration-color: #0843a2;
-}
 }
