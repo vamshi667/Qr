@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:grey;
+    
+.container{
+    width: 100%;
+    max-width: 450px;
+    position: absolute;
+    background-color: black;
+    background-image: linear-gradient(rgba(241, 51, 13, 0.7),rgba(0,0,0,0.7));
+    height: auto;
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    transform: translate(-50%,-50%);
+}
+
+.container .title{
+    width: 70%;
+    margin: 2%  10%  ;
+}
+
+.container .title h2{
+
+    font-weight: 600;
+}
+
+.container .title h2 span{
+    font-weight: 800;
+    border-bottom: 4px solid rgba(238, 13, 13, 0.949);
+}
+
+.container .srch{
+    border-radius: 10px;
+    margin: 6% 10%;
+    width: 80%;
+    border: 2px solid #d21a1a;
+    height: 5vh;
+}
+
+.container .srch input{
+    border-radius: 10px;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 1px 10px;
+    font-size: 1.3rem;
+    height: 100%;
+}
+
+
+.container .qr-code{
+    margin:3% 30% 3% 30% ;
+    scale: 1;
+    max-height: 500px;    
+}
+
+.container .qr-code img{
+    border: 1px solid #0843a2;
+    padding: 5px;
+}
+
+.container .btn{
+    margin:8% 10% ;
+    width: 80%;
+}
+
+.container .btn button{
+    width: 100%;
+    color: #fff;
+    border-radius:5px ;
+    background-color: #f30707;
+    height: 5vh;
+}
+
+.container .btn button:active{
+    scale: 0.98;
+}
+.text{
+    background-color: #f30707;
+    text-align: center;
+    text-decoration-color: #0843a2;
+}
+}
